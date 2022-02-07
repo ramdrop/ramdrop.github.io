@@ -1,0 +1,5 @@
+featured:
+- {name: "AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar, 2022 IEEE International Conference on Robotics and Automation. IEEE, 2022.", url: 'courses/AutoPlace.html'}
+
+index:
+- {name: "Cai, Kaiwen, Bing Wang, and Chris Xiaoxuan Lu. AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar, 2022 IEEE International Conference on Robotics and Automation. IEEE, 2022.", url: '../courses/AutoPlace.html'}
