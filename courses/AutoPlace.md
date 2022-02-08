@@ -37,4 +37,6 @@ Cai, Kaiwen, Bing Wang, and Chris Xiaoxuan Lu. AutoPlace: Robust Place Recogniti
 [https://github.com/ramdrop/AutoPlace](https://github.com/ramdrop/AutoPlace)
 
 #### Video
-<iframe width="640" height="400" src="https://www.youtube.com/embed/d_-ZYJhgGIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="60%" height="40%" src="https://www.youtube.com/embed/d_-ZYJhgGIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>

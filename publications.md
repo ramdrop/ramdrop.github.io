@@ -9,7 +9,7 @@ title: "Publications"
 <u>Cai, Kaiwen</u>, Wang, Bing, and Lu, Chris Xiaoxuan in 2022 IEEE International Conference on Robotics and Automation. </p>
 
 <div align="center">
-    <img src="../assets/img/autoplace.png" width="500" class="floatleft" >
+    <img src="../assets/img/autoplace.png" width="50%" class="floatleft" >
 </div>
 
 <!-- <div align="center">
