@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar | Kaiwen Cai</title>
+    <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+    <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/kaiwen.png">
+    <link rel="shortcut icon" href="/assets/kaiwen.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            font-family: 'Source Serif Pro', Condiment, cursive;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        a {
+            font-family: 'Source Serif Pro', Condiment, cursive;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        span {
+            font-family: 'Source Serif Pro', Condiment, cursive;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        h3 {
+            font-family: 'Source Serif Pro', Condiment, cursive;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-family: 'Source Serif Pro', Condiment, cursive;
+            font-size: 30px;
+            text-align: left;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+            <div>
+                <a href="/" class="d-flex align-items-center text-decoration-none">
+                    <!-- <span class="fs-4 fw-bold">Kaiwen Cai</span> -->
+                    <span class="fs-4 fw-bold">Home</span>
+                </a>
+                <a href="/" class="d-flex align-items-center text-decoration-none">
+                    <span></span>
+                </a>
+            </div>
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+
+                <a class="me-3 py-2 text-decoration-none" href="/publications">Publications</a>
+
+                <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+
+            </nav>
+        </header>
+
+
+        <div class="row g-5 mb-5">
+            <div class="col-md-12">
+                <h3>AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar</h3>
+                <p style="color:black;margin-left:20px;text-align:center">
+                    (2022 IEEE International Conference on Robotics and Automation) <br>
+                    <a href="/">Kaiwen Cai</a><sup>1</sup>, <a href="https://www.cs.ox.ac.uk/people/bing.wang/">Bing
+                        Wang</a><sup>2</sup>, <a href="https://christopherlu.github.io/">Chris Xiaoxuan
+                        Lu</a><sup>3</sup><br>
+                    <sup>1</sup>University of Liverpool, <sup>2</sup>University of Oxford, <sup>3</sup>University of
+                    Edinburgh
+                </p>
+
+                <div style="text-align:center;">
+                    <a style="background:grey;text-align: center;text-decoration:none;"
+                        href=https://arxiv.org/pdf/2109.08652>
+                        <font color="white">Paper PDF</font>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="background:grey;text-align: center;text-decoration:none;"
+                        href=https://github.com/ramdrop/autoplace>
+                        <font color="white">Github Code</font>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="background:grey;text-align: center;text-decoration:none;"
+                        href=https://www.youtube.com/watch?v=d_-ZYJhgGIk>
+                        <font color="white">Youtube Video</font>
+                    </a>
+                </div>
+
+                <br><br><br>
+
+                <h3>Abstract</h3>
+                <p><b>TL;DR: We propose a place recognition for single-chip automotive radar, making the use of Doppler
+                        velocity
+                        measurement, RCS measurement and a spatical-temporal nerural network.</b></p>
+                <p>This paper presents a novel place recognition approach to autonomous vehicles by using low-cost,
+                    single-chip
+                    automotive radar. Aimed at improving recognition robustness and fully exploiting the rich
+                    information provided
+                    by this
+                    emerging automotive radar, our approach follows a principled pipeline that comprises (1) dynamic
+                    points
+                    removal from
+                    instant Doppler measurement, (2) spatial-temporal feature embedding on radar point clouds, and (3)
+                    retrieved
+                    candidates refinement from Radar Cross Section measurement. Extensive experimental results on the
+                    public
+                    nuScenes
+                    dataset demonstrate that existing visual/LiDAR/spinning radar place recognition approaches are less
+                    suitable
+                    for
+                    single-chip automotive radar. In contrast, our purpose-built approach for automotive radar
+                    consistently
+                    outperforms a
+                    variety of baseline methods via a comprehensive set of metrics, providing insights into the efficacy
+                    when used
+                    in a
+                    realistic system.</p>
+                <br />
+                <h3>Video</h3>
+                <div align="center">
+                    <iframe width=800 height=400 src="https://www.youtube.com/embed/d_-ZYJhgGIk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe>
+                </div>
+                <br><br>
+                <h3>Methods</h3>
+
+                <table>
+                    <tr>
+                        <td width="50%"><img src=openfig.png width="90%" border=0></td>
+                        <td width="50%">
+                            <p>Place recognition using the single-chip automotive radar: given a query (marked in <font
+                                    color="purple">purple</font> )
+                                acquired from the same place on a rainy day,
+                                the state-of-the-art RGB camera-based place recognition(NetVLAD) failed to retrieve
+                                the correct candidate due to raindrops blocking the camera, while the proposed
+                                <b>AutoPlace</b>
+                                successfully retrived the
+                                correct one.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <table>
+                    <tr>
+                        <td width="50%"><img src=pipeline.png width="90%" border=0></td>
+                        <td width="50%">
+                            <p>Overview of <b>AutoPlace</b>: radial velocity, point cloud and RCS measurement of a radar
+                                scan are
+                                utilized by the proposed
+                                Dynamic Points Removal <b> (DPR) </b> method, Deep Spatial-Temporal Encoder<b> (SE & TE)
+                                </b> and RCS
+                                Histogram Re-ranking<b> (RCSHR) </b>
+                                method, respectively.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <table>
+                    <tr>
+                        <td width="50%"><img src=DPR.gif width="90%" border=0></td>
+                        <td width="50%">
+                            <p>Remove dynamic points based on radial velocity: the left figure shows the points' radial
+                                velocity distribution measured
+                                by the front radar in a single radar scan, and the right is the front-view images from
+                                the front camera, the bird view
+                                radar point cloud from the front radar, respectively. The two dynamic points (the moving
+                                cars) are successfully
+                                identified by the proposed <b> DPR </b> method and marked in <font color="red">red
+                                </font>.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <table>
+                    <tr>
+                        <td width="50%" align="center"><img src=model.png width="50%" border=0></td>
+                        <td width="50%">
+                            <p>Overview of the proposed deep spatial-temporal encoder<b> (SE & TE) </b>: in the Spatial
+                                Encoder diagram, the block color reflects layer
+                                type while the block size indicates the layer's output size, which is annotated as
+                                <i>channel@width×height</i>.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <table>
+                    <tr>
+                        <td width="50%" align="center"><img src=RCSHR.png width="80%" border=0></td>
+                        <td width="50%">
+                            <p>An example of <b> RCSHR</b>: The lower right figure is the RCS histograms of a query and
+                                two candidates, while
+                                others are their
+                                bird view radar images. Given a query, the retrieved top-1 candidate before RCSHR is a
+                                false positive; after
+                                performing
+                                RCSHR based on their RCS histograms, we identified the true positive candidate. (we use
+                                point size larger than 1
+                                pixel
+                                for better visualization)</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td width="50%" align="center"><img src=PR-competing.png width="60%" border=0></td>
+                        <td width="50%">
+                            <p>Precision-recall curve of SOTA methods on the nuScenes dataset. <b>AutoPlace</b> achieves
+                                the best performance.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <table>
+                    <tr align="center"><img src=qua-competing.png width="100%" border=0> </tr>
+                    <tr>
+                        <p>Qualitative analysis of SOTA methods. The first and second columns show the query radar
+                            images and ground truth radar
+                            images, and the other columns are the retrieved top 1 candidate via different methods. <font
+                                color="green">green</font>
+                            means the retrived candidate is a true positive, while <font color="red">red</font> denotes
+                            false positive.
+                        </p>
+                    </tr>
+                </table>
+
+                <br>
+            </div>
+        </div>
+
+
+        <footer class="pt-5 my-5 text-muted border-top">
+            <div class="row">
+                <div class="col-md-6 text-end social-media-icons">
+
+                    <a href="https://github.com/ramdrop" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

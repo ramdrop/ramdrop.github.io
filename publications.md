@@ -12,15 +12,6 @@ title: "Publications"
     <img src="../assets/img/autoplace.png" width="50%" class="floatleft" >
 </div>
 
-<!-- <div align="center">
-<p> <a href='../courses/AutoPlace.html' > [Code]&emsp;&emsp;&emsp;   </a>
-<a href='../courses/AutoPlace.html' > [Paper]&emsp;&emsp;&emsp;   </a>
-<a href='../courses/AutoPlace.html' > [Video]   </a>
-</p>
-</div>  -->
-
-
-
 
 <br><br><br>
 
