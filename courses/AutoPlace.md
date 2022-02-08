@@ -23,10 +23,19 @@ title: "AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar"
         font-family: 'Source Serif Pro', Condiment, cursive;
         font-size: 30px;
         text-align: left;
-      }      
+      }     
+    h3 {
+        font-family: 'Source Serif Pro', Condiment, cursive;
+        font-size: 35px;
+        text-align: center;
+      }     
+    m-title {
+        font-family: 'Source Serif Pro', Condiment, cursive;
+        font-size: 30px;
+        text-align: center;
+      }          
   </style>
 </head>
-
 
 #### Paper
 

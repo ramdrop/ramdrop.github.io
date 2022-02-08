@@ -21,6 +21,11 @@
       font-size: 20px;
       text-align: left;
     }
+  p-1 {
+      font-family: 'Source Serif Pro', Condiment, cursive;
+      font-size: 20px;
+      text-align: center;
+    }    
   a {
       font-family: 'Source Serif Pro', Condiment, cursive;
       font-size: 20px;
@@ -36,6 +41,7 @@
     font-family: 'Source Serif Pro', Condiment, cursive;
     font-size: 30px;
     text-align: left;
+    font-weight: bold;
   }  
   h4 {
     font-family: 'Source Serif Pro', Condiment, cursive;
@@ -80,10 +86,16 @@
   </style>
 </head>
 
-      <div class="row g-5 mb-5">
+<div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar</h3>
-    <head>
+    <h3>AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar</h3>
+    <p style="color:black;margin-left:20px;text-align:center">
+    (2022 IEEE International Conference on Robotics and Automation) <br>
+    Kaiwen Cai<sup>1</sup>, Bing Wang<sup>2</sup>, Chris Xiaoxuan Lu<sup>3</sup><br>
+    <sup>1</sup>University of Liverpool, <sup>2</sup>University of Oxford, <sup>3</sup>University of Edinburgh 
+    </p>
+
+<head>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&amp;display=swap" rel="stylesheet" />
@@ -103,22 +115,39 @@
         font-family: 'Source Serif Pro', Condiment, cursive;
         font-size: 30px;
         text-align: left;
-      }      
+      }     
+    h3 {
+        font-family: 'Source Serif Pro', Condiment, cursive;
+        font-size: 35px;
+        text-align: center;
+      }     
+    button {
+        font-family: 'Source Serif Pro', Condiment, cursive;
+        font-size: 30px;
+        text-align: center;
+      }          
   </style>
 </head>
 
-<h4 id="paper">Paper</h4>
+<div style="text-align:center;">
+  <a style="background:black;text-align: center;" href=https://arxiv.org/pdf/2109.08652 ><font color="white">Paper</font> </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a style="background:black;text-align: center;" href=https://github.com/ramdrop/autoplace ><font color="white">Code</font> </a>
+</div>
 
-<p>Cai, Kaiwen, Bing Wang, and Chris Xiaoxuan Lu. AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar, 2022 IEEE International Conference on Robotics and Automation. IEEE, 2022.</p>
+<br><br><br>
 
-<h4 id="code">Code</h4>
+<h3>Abstract</h3>
+<p>TL;DR: We propose a place recognition for single-chip automotive radar, making the use of Doppler velocity measurement, RCS measurement and a spatical-temporal nerural network.</p>
+<p>This paper presents a novel place recognition approach to autonomous vehicles by using low-cost, single-chip automotive radar. Aimed at improving recognition robustness and fully exploiting the rich information provided by this emerging automotive radar, our approach follows a principled pipeline that comprises (1) dynamic points removal from instant Doppler measurement, (2) spatial-temporal feature embedding on radar point clouds, and (3) retrieved candidates refinement from Radar Cross Section measurement. Extensive experimental results on the public nuScenes dataset demonstrate that existing visual/LiDAR/spinning radar place recognition approaches are less suitable for single-chip automotive radar. In contrast, our purpose-built approach for automotive radar consistently outperforms a variety of baseline methods via a comprehensive set of metrics, providing insights into the efficacy when used in a realistic system.</p>
+<br /><br /><br /><br />
 
-<p><a href="https://github.com/ramdrop/AutoPlace">https://github.com/ramdrop/AutoPlace</a></p>
 
-<h4 id="video">Video</h4>
-<iframe width="60%" height="40%" src="https://www.youtube.com/embed/d_-ZYJhgGIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+<h3>Video</h3>
+<div align="center">
+  <iframe width=600 height=400 src="https://www.youtube.com/embed/d_-ZYJhgGIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<br /><br /><br /><br /><br /><br /><br />
 
   </div>
 </div>
