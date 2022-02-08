@@ -4,7 +4,7 @@ title: "Home"
 ---
 <style>a{TEXT-DECORATION:none}</style> 
 
-I am a PhD student at <font color=DarkBlue><b>Department of Computer Science, University of Liverpool</b></font>, supervised by [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/) and [Chris Xiaoxuan Lu](https://christopherlu.github.io/). 
+I am a PhD student (2020.10 ~ ) at <b>Department of Computer Science, University of Liverpool</b>, supervised by [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/) and [Chris Xiaoxuan Lu](https://christopherlu.github.io/). 
 
 My research interest is robotic **perception**, **localization** and its **uncertainty estimation** in **deep learning** based autonomous systems. 
 
