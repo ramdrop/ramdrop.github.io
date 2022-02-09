@@ -15,53 +15,70 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-<style>
-    p,
-    a,
-    span,
-    h3,
-    h4,
-    h5 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-    }
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <style>
+        p,
+        a,
+        span,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
 
-    p {
-        font-size: 20px;
-        text-align: left;
-    }
+        p {
+            font-size: 20px;
+            text-align: left;
+        }
 
-    a {
-        font-size: 20px;
-        /* font-weight: bold; */
-        text-align: left;
-    }
+        a {
+            font-size: 20px;
+            /* font-weight: bold; */
+            text-align: left;
+        }
 
-    span {
-        font-size: 30px;
-        text-align: left;
-    }
+        span {
+            font-size: 30px;
+            text-align: left;
+        }
 
-    h3 {
-        font-size: 30px;
-        text-align: center;
-        font-weight: 500;
+        h3 {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 500;
 
-    }
+        }
 
-    h4 {
-        font-size: 30px;
-        text-align: left;
-        font-weight: 500;
-    }
+        h4 {
+            font-size: 30px;
+            text-align: left;
+            font-weight: 500;
+        }
 
-    h5 {
-        font-size: 25px;
-        text-align: left;
-        font-weight: 500;
-    }
-</style>   
+        h5 {
+            font-size: 25px;
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .button1 {
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            padding: 0px 20px;
+            text-align: center;
+            background-color: rgb(85, 84, 84);
+            color: rgb(255, 255, 255);
+            border: 0px solid #4CAF50;
+            border-radius: 1px;
+            width: 80px;
+        }
+
+        .button1:hover {
+            background-color: #126aa5;
+            color: white;
+        }
+    </style>
 
 </head>
 
@@ -100,21 +117,20 @@
                     Edinburgh
                 </p>
 
+
                 <div style="text-align:center;">
-                    <a style="background:grey;text-align: center;text-decoration:none;"
-                        href=https://arxiv.org/pdf/2109.08652>
-                        <font color="white">Paper PDF</font>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a style="background:grey;text-align: center;text-decoration:none;"
-                        href=https://github.com/ramdrop/autoplace>
-                        <font color="white">Github Code</font>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a style="background:grey;text-align: center;text-decoration:none;"
-                        href=https://www.youtube.com/watch?v=d_-ZYJhgGIk>
-                        <font color="white">Youtube Video</font>
-                    </a>
+                    <button class="button1"><a style="text-decoration:none;" href=https://arxiv.org/pdf/2109.08652>
+                            <font color="white">PDF</font>
+                        </a></button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="button1"> <a style="text-decoration:none;" href=https://github.com/ramdrop/autoplace>
+                            <font color="white">Code</font>
+                        </a></button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="button1"> <a style="text-decoration:none;" href=https://www.youtube.com/watch?v=d_-ZYJhgGIk>
+                            <font color="white">Video</font>
+                        </a></button>
+                    <br>
                 </div>
 
                 <br><br><br>
@@ -147,7 +163,9 @@
                     in a
                     realistic system.</p>
                 <br />
-                <h3>Video</h3>
+                <h3>Video (3 min)</h3>
+                <HR>
+
                 <div align="center">
                     <iframe width=800 height=400 src="https://www.youtube.com/embed/d_-ZYJhgGIk"
                         title="YouTube video player" frameborder="0"
@@ -156,7 +174,7 @@
                 </div>
                 <br><br>
                 <h3>Methods</h3>
-
+                <HR>
                 <table>
                     <tr>
                         <td width="50%"><img src=openfig.png width="90%" border=0></td>
@@ -168,7 +186,8 @@
                                 the correct candidate due to raindrops blocking the camera, while the proposed
                                 <b>AutoPlace</b>
                                 successfully retrived the
-                                correct one.</p>
+                                correct one.
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -194,7 +213,8 @@
                     <tr>
                         <td width="50%"><img src=DPR.gif width="90%" border=0></td>
                         <td width="50%">
-                            <p>Remove dynamic points based on radial velocity: the left figure shows the points' radial
+                            <p><b> DPR</b>: Remove dynamic points based on radial velocity: the left figure shows the
+                                points' radial
                                 velocity distribution measured
                                 by the front radar in a single radar scan, and the right is the front-view images from
                                 the front camera, the bird view
@@ -211,10 +231,12 @@
                     <tr>
                         <td width="50%" align="center"><img src=model.png width="50%" border=0></td>
                         <td width="50%">
-                            <p>Overview of the proposed deep spatial-temporal encoder<b> (SE & TE) </b>: in the Spatial
+                            <p><b> SE & TE</b>: Overview of the proposed deep spatial-temporal encoder<b> (SE & TE)
+                                </b>: in the Spatial
                                 Encoder diagram, the block color reflects layer
                                 type while the block size indicates the layer's output size, which is annotated as
-                                <i>channel@width×height</i>.</p>
+                                <i>channel@width×height</i>.
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -224,7 +246,7 @@
                     <tr>
                         <td width="50%" align="center"><img src=RCSHR.png width="80%" border=0></td>
                         <td width="50%">
-                            <p>An example of <b> RCSHR</b>: The lower right figure is the RCS histograms of a query and
+                            <p><b> RCSHR</b>: The lower right figure is the RCS histograms of a query and
                                 two candidates, while
                                 others are their
                                 bird view radar images. Given a query, the retrieved top-1 candidate before RCSHR is a
@@ -261,8 +283,11 @@
                         </p>
                     </tr>
                 </table>
-
                 <br>
+                <table align="center">
+                    <tr><img src=demo.gif width="100%" border=0> </tr>
+                </table>
+                <p style="text-align: center;"> Place recognition performance on nuScenes dataset.</p>
             </div>
         </div>
 

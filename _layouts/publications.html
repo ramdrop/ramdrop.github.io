@@ -8,18 +8,56 @@ layout: default
     a {
         TEXT-DECORATION: none
     }
+
+    .button1 {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        padding: 0px 20px;
+        text-align: center;
+        background-color: rgb(85, 84, 84);
+        color: rgb(255, 255, 255);
+        border: 0px solid #4CAF50;
+        border-radius: 1px;
+        width: 100px;
+    }
+
+    .button1:hover {
+        background-color: #126aa5;
+        color: white;
+    }
+    /* .my:hover {
+        background-color: #e6f4fd;
+        color: white;
+    }     */
 </style>
 <h4> Publications </h4>
-<p> <a href='../assets/pages/AutoPlace/AutoPlace_customized.html'> <b>[ICRA'22] AutoPlace: Robust Place Recognition with Single-Chip Automotive
+<p> <a class=my href='../assets/pages/AutoPlace/AutoPlace_customized.html'> <b>[ICRA'22] AutoPlace: Robust Place Recognition with
+            Single-Chip Automotive
             Radar </b> </a>
     <br>
     <u>Cai, Kaiwen</u>, Wang, Bing, and Lu, Chris Xiaoxuan in 2022 IEEE International Conference on Robotics and
     Automation.
 </p>
 
-<div align="center">
-    <img src="../assets/pages/AutoPlace/demo.gif" width="80%" class="floatleft">
-</div>
+
+<table>
+    <tr>
+        <td width="80%" align="center"><img src=../assets/pages/AutoPlace/demo.gif width="100%" border=0></td>
+        <td width="20%" align="center">
+            <button class="button1"><a text-decoration:none; href=https://arxiv.org/pdf/2109.08652>
+                    <font color="white">PDF</font></button>
+            </a>
+            <br><br>
+            <button class="button1"> <a text-decoration:none; href=https://github.com/ramdrop/autoplace>
+                    <font color="white">Code</font></button>
+            </a>
+            <br><br>
+            <button class="button1"> <a text-decoration:none; href=https://www.youtube.com/watch?v=d_-ZYJhgGIk>
+                    <font color="white">Video</font></button>
+            </a>
+        </td>
+    </tr>
+</table>
 
 
 <br><br><br>
@@ -27,4 +65,3 @@ layout: default
 <p> <b>[SenSys'21] Can Image Style Transfer Save Automotive Radar? </b><br>
     Deng, Jianning, <u>Kaiwen Cai</u>, and Chris Xiaoxuan Lu
     In Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems. 2021.</p>
-
