@@ -12,7 +12,6 @@ title: "Publications"
     <img src="../assets/img/autoplace.png" width="50%" class="floatleft" >
 </div>
 
-
 <br><br><br>
 
 <p> <b>[SenSys'21] Can Image Style Transfer Save Automotive Radar? </b><br>
