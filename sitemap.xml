@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/</loc>
+	<lastmod>2023-07-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/profile.png</image:loc>
+	<image:title>profile</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/profile.webp</image:loc>
+	<image:title>profile</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/services.html</loc>
+	<lastmod>2023-07-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/publications.html</loc>
+	<lastmod>2023-07-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/preview.png</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/preview.webp</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/CUE.gif</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/demo.gif</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/stun.png</image:loc>
+	<image:title>stun</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/stun.webp</image:loc>
+	<image:title>stun</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/openfig_odom.png</image:loc>
+	<image:title>stun</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/openfig_odom.webp</image:loc>
+	<image:title>stun</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/autoplace.html</loc>
+	<lastmod>2023-07-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/openfig.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/openfig.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/pipeline.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/pipeline.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/DPR.gif</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/model.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/model.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/RCSHR.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/RCSHR.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/PR-competing.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/PR-competing.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/qua-competing.png</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/qua-competing.webp</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/demo.gif</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/tutorials.html</loc>
+	<lastmod>2023-07-10</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
