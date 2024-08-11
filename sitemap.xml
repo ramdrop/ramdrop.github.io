@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/</loc>
-	<lastmod>2024-07-20</lastmod>
+	<lastmod>2024-08-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -24,7 +24,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/services.html</loc>
-	<lastmod>2024-07-20</lastmod>
+	<lastmod>2024-08-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -38,7 +38,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/publications.html</loc>
-	<lastmod>2024-07-20</lastmod>
+	<lastmod>2024-08-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -100,7 +100,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/autoplace.html</loc>
-	<lastmod>2024-07-20</lastmod>
+	<lastmod>2024-08-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -170,9 +170,87 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/tutorials.html</loc>
-	<lastmod>2024-07-20</lastmod>
+	<lastmod>2024-08-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.csc.liv.ac.uk/~ramdrop/edgevl.html</loc>
+	<lastmod>2024-08-11</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/edgevl_openfig.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/edgevl_openfig.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/overall_structure.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/overall_structure.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/result1.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/result1.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/result2.png</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/result2.webp</image:loc>
+	<image:title>openfig</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/eurosat.png</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/eurosat.webp</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/scannet.png</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/scannet.webp</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/sunrgbd1.png</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/sunrgbd1.webp</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/sunrgbd2.png</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/sunrgbd2.webp</image:loc>
+	<image:title>qua competing</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
