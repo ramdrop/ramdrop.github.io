@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -24,7 +24,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/services.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -38,9 +38,17 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/publications.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/teaser.png</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/teaser.webp</image:loc>
+	<image:title>demo</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://www.csc.liv.ac.uk/~ramdrop/img/edgevl_openfig.png</image:loc>
 	<image:title>demo</image:title>
@@ -100,7 +108,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/autoplace.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -170,7 +178,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/tutorials.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -184,7 +192,7 @@
 </url>
 <url>
 	<loc>https://www.csc.liv.ac.uk/~ramdrop/edgevl.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
